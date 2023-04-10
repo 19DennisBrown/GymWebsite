@@ -1,0 +1,10 @@
+
+.container-main{
+  background: url(../gymimages/city.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+img{
+  border-radius: 10%;
+}
