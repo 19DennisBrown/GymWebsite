@@ -3,5 +3,5 @@
 .App{
   width: 100vw; height: 100vh;
   display: grid;
-  grid-template-rows: .3fr 1fr .1fr;
+  grid-template-rows: .15fr 1fr .05fr;
 }

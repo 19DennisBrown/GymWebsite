@@ -1,4 +1,7 @@
 
 .container-header{
-  background-color: blue;
+  background-color: rgb(88, 88, 227);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

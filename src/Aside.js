@@ -1,10 +1,10 @@
 import React from 'react'
-
+import './Styles/Aside.css'
 
 const Aside = () => {
   return (
-    <div>
-      Aside
+    <div className='aside'>
+      Aside Content Here.
     </div>
   )
 }
