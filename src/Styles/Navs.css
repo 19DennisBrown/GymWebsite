@@ -1,4 +1,11 @@
-
+:root{
+  --title-color:#54A98B;
+  --text-color:#D0E9F7;
+  --btn-color:#05679D;
+  --footer-color:#C2A309;
+  --background-clr1:#683E54;
+  --background-clr2:#700651;
+}
 
 
 *{
@@ -13,4 +20,21 @@ ul{
   width: 300px;
   display: flex;
   justify-content: space-around;
+}
+.linkBtn{
+  color: var(--text-color);
+  text-decoration: underline;
+  transition: .5s;
+}
+.linkBtn:hover{
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width:700px){
+  ul{
+    display: grid;
+  }
+  .nav-links{
+    
+  }
 }

@@ -1,9 +1,78 @@
-
-
-.aside{
-  background: url('../gymimages/clock.webp');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+:root{
+  --title-color:#54A98B;
+  --text-color:#1d86c3;
+  --btn-color:#9d059d;
+  --footer-color:#C2A309;
+  --background-clr1:#683E54;
+  --background-clr2:#700651;
 }
+*{
+  box-sizing: border-box;
+}
+.aside{
+  background-color: #4a3a42;
+}
+.image{
+  text-align: center;
+}
+.image img{
+  width: 70%;
+  transition: .9s;
+}
+.image img:hover{
+  transform: scale(.9);
+}
+.content-contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 5%;
+}
+.description{
+  text-align: center;
+  padding: 30px;
+}
+.description h1{
+  color: red;
+}
+.description p{
+  color: grey;
+}
+.description  button{
+  background-color: var(--btn-color);
+  padding: 10px 40px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  transition: .6s;
+}
+.description  button:hover{
+  color: var(--btn-color);
+  background-color:white;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:700px) {
+  .aside{
+    text-align: center;
+  }
+  .content-contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 100vw;
+    margin-top: 5%;
+  }
+  .image{
+    width: 100%;
+  }
+  .image img{
+    text-align: center;
+  }
+  .description{
+    max-width: 100vw;
+    
+  }
+}
+

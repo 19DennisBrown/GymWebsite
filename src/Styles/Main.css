@@ -1,11 +1,36 @@
+:root{
+  --title-color:#54A98B;
+  --text-color:#1d86c3;
+  --btn-color:#9d059d;
+  --footer-color:#C2A309;
+  --background-clr1:#683E54;
+  --background-clr2:#700651;
+}
 
 .container-main{
   background: url(../gymimages/city.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
+  width: 100%;  height: 100%;
+  text-align: center;
 }
 img{
   border-radius: 10%;
+}
+.main-content{
+  margin: 10% auto;
+}
+.main-content h3{
+  color: var(--title-color);
+}
+.main-content h1{
+  color: var(--text-color);
+}
+.main-content button{
+  background-color: var(--btn-color);
+  border: none;
+  padding: 8px 50px;
+  border-radius: 10px;
+  font-weight: 500;
 }

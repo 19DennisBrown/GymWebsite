@@ -6,7 +6,7 @@ import Logo from './gymimages/community.jpg'
 
 
 const Header = () => {
-
+ 
   return (
     <div className='container-header'>
       <section className="right-header">
