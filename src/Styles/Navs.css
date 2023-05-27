@@ -6,12 +6,12 @@
   --background-clr1:#683E54;
   --background-clr2:#700651;
 }
-
-
-*{
-  list-style: none;
-  text-decoration:none;
+.linkBtn{
+  text-decoration: none;
 }
+
+
+
 
 .nav-links{
   color:red;
@@ -23,18 +23,27 @@ ul{
 }
 .linkBtn{
   color: var(--text-color);
-  text-decoration: underline;
   transition: .5s;
+  font-size: 22px;
 }
 .linkBtn:hover{
   text-decoration: none;
   color: black;
 }
 @media screen and (max-width:700px){
+  
+  *{
+    text-decoration: none;
+  }
   ul{
     display: grid;
+    height: 100px;
+  }
+  ul>li{
+    margin-bottom: 10px;
   }
   .nav-links{
-    
+    text-decoration: none;
+    text-align: center;
   }
 }

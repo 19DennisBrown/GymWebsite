@@ -6,15 +6,18 @@ import './Styles/Navs.css'
 import {NavLink} from 'react-router-dom'
 
 const Navs = () => {
+  
+
   return (
-    <nav className='nav-links'>
+    <>
+    <nav id='nav' className='nav-links'>
       <ul>
         <li>
         <NavLink
             className='linkBtn'
             to="/"
             exact>
-          Main
+          Home
         </NavLink>
         </li>
         <li>
@@ -22,11 +25,22 @@ const Navs = () => {
             className='linkBtn'
             to="/aside"
             exact>
-          Aside
+          About
+        </NavLink>
+        </li>
+        <li>
+        <NavLink
+            className='linkBtn'
+            to="/member"
+            exact>
+          Be a Member
         </NavLink>
         </li>
       </ul>
     </nav>
+    
+  </>
+
   )
 }
 

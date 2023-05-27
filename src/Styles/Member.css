@@ -1,0 +1,41 @@
+
+
+*{
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+}
+
+.register>form{
+  width: 30%; height: 70%;
+  margin: 100px auto;
+  background-color: grey;
+  display: grid;
+  padding: 80px 50px;
+  border-radius: 4px;
+  box-shadow: 8px 3px 25px black;
+}
+input, select{
+  margin-left: 10px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  padding: 3px 6px;
+}
+input[type='submit']{
+  width: 150px; height: 30px;
+  margin: 0 auto; 
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .register>form{
+    width: 80%; height: 70%;
+    margin: 100px auto;
+    background-color: grey;
+    display: grid;
+    padding: 50px 10px;
+    border-radius: 4px;
+    box-shadow: 8px 3px 25px black;
+  }
+}
